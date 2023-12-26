@@ -5,8 +5,8 @@ const getTotalBalanceByGender = (users, gender) => {
   };
   
   const maleTotalBalance = getTotalBalanceByGender(allUsers, "male");
-  console.log(maleTotalBalance); // 12053
+  console.log(maleTotalBalance); 
   
   const femaleTotalBalance = getTotalBalanceByGender(allUsers, "female");
-  console.log(femaleTotalBalance); // 8863
+  console.log(femaleTotalBalance);
   
